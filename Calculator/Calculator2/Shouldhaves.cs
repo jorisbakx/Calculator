@@ -25,7 +25,8 @@ namespace Calculator2
 
 		public int Rest(int getal1, int getal2)
 		{
-			throw new NotImplementedException();
+			int getal3 = getal1 % getal2;
+			return getal3;
 		}
 	}
 }
